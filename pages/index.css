@@ -6,3 +6,4 @@
 @import url("../blocks/content.css");
 @import url("../blocks/intro.css");
 @import url("../blocks/footer.css");
+body { outline: 10px solid lime; }
