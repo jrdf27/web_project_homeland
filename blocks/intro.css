@@ -1,0 +1,60 @@
+.intro {
+  padding-top: 92px;
+}
+
+.intro__title {
+  margin: 0 0 40px;
+  font-size: 54px;
+  line-height: 1.1;
+  font-weight: 900;
+  max-width: 830px;
+}
+
+.intro__quote {
+  margin: 0 0 10px;
+  max-width: 720px;
+  font-size: 16px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.intro__quote-author {
+  margin: 0 0 32px;
+  font-size: 14px;
+  line-height: 1.4;
+  opacity: 0.9;
+}
+
+.intro__text-group {
+  max-width: 720px;
+}
+
+.intro__text {
+  margin: 0 0 20px;
+  font-size: 14px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding-top: 64px;
+  }
+
+  .intro__title {
+    font-size: 42px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 544px) {
+  .intro {
+    padding-top: 48px;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+}
