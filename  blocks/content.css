@@ -1,17 +1,18 @@
 .content {
-    max-width: 984px;
-    margin: 0 auto;
+  max-width: 984px;
+  margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 544px) {
+  .content {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content {
     padding: 0 48px;
   }
-  
-  @media screen and (max-width: 768px) {
-    .content {
-      padding: 0 24px;
-    }
-  }
-  
-  @media screen and (max-width: 320px) {
-    .content {
-      padding: 0 16px;
-    }
-  }
+}
