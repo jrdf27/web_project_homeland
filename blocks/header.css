@@ -17,17 +17,7 @@
   margin: 0; /* importante para que no meta espacio extra */
 }
 
-.header__logo::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
 
-  width: 12px;
-  height: 12px;
-  background-color: #2f80ed;
-}
 
 .header__title {
   margin: 56px 0 24px;
