@@ -1,0 +1,83 @@
+/* BASE (320–543): toma el frame 320 */
+.intro {
+    display: flex;
+    max-width: 984px;
+    margin: 0 auto;
+    padding: 64px 16px 0;
+    box-sizing: border-box;
+  }
+
+
+.intro__quote {
+    margin: 0;
+    max-width: 288px;        /* width 288 */
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: right;
+  }
+
+   /* ===== Cita (texto largo) ===== */
+  /* ===== Autor: — Joseph Beuys (Figma widths + right align) ===== */
+  /* BASE 320–543 (frame 320) */
+  .intro__quote-author {
+    margin: 0;
+    margin-left: auto;
+    max-width: 288px;
+    text-align: right;
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: right;
+
+    
+  }
+  
+  .intro__quote-author::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+  }
+  
+  /* Solo controlas el ancho “visual” con un contenedor interno */
+  .intro__quote-author span {
+    display: inline-block;
+    max-width: 288px;
+  }
+  
+  @media screen and (min-width: 544px) {
+    .intro {
+      padding: 88px 24px 0;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .intro {
+      padding: 92px 48px 0;
+    }
+  }
+
+  /* 544–1023: toma el frame 768 (tu “720”) */
+  @media screen and (min-width: 544px) {
+    .intro__quote {
+      max-width: 720px;      /* width 720 */
+    }
+  }
+  
+  /* 1024+: toma el frame 1280 */
+  @media screen and (min-width: 1024px) {
+    .intro__quote {
+      max-width: 732px;      /* width 732 */
+    }
+  }
+
+  
+  @media screen and (min-width: 544px) {
+    .intro__quote-author span { max-width: 720px; }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .intro__quote-author span { max-width: 732px; }
+  }
