@@ -1,9 +1,39 @@
-@import url("../vendor/normalize.css");
-@import url("../vendor/fonts.css");
-
-@import url("../blocks/page.css");
-@import url("../blocks/header.css");
-@import url("../blocks/content.css");
+@import url("../blocks/logo.css");
+@import url("../blocks/lead.css");
+@import url("../blocks/image.css");
 @import url("../blocks/intro.css");
 @import url("../blocks/footer.css");
-body { outline: 10px solid lime; }
+
+//* Base global */
+* { box-sizing: border-box; }
+
+.page {
+  margin: 0;
+  background: #2a2c2f;
+  color: #fff;
+  font-family: "Inter", Arial, sans-serif;
+
+  /* Mobile first */
+  --container: 288px;
+  overflow-x: hidden; /* seguro extra para evitar scroll horizontal */
+}
+
+/* Contenedor centrado sin pasarse del viewport */
+.page__section {
+  width: 100%;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 16px; /* gutters */
+}
+
+/* 768+ */
+@media screen and (min-width: 768px) {
+  .page { --container: 720px; }
+  .page__section { padding: 0 24px; }
+}
+
+/* 1280+ */
+@media screen and (min-width: 1280px) {
+  .page { --container: 984px; }
+  .page__section { padding: 0 48px; }
+}
