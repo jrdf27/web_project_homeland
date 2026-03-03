@@ -1,11 +1,12 @@
+@import url(../vendor/normalize.css);
 @import url("../blocks/logo.css");
 @import url("../blocks/lead.css");
 @import url("../blocks/image.css");
 @import url("../blocks/intro.css");
 @import url("../blocks/footer.css");
 
-//* Base global */
-* { box-sizing: border-box; }
+/* Base global */
+*{ box-sizing: border-box; }
 
 .page {
   margin: 0;
