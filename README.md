@@ -1,9 +1,9 @@
-
 # De patria a patria
 
 Proyecto responsivo siguiendo un diseño de Figma.
 
 ## Tecnologías
+
 - HTML5
 - CSS3
 - BEM (Flat)
@@ -11,4 +11,5 @@ Proyecto responsivo siguiendo un diseño de Figma.
 - Media queries
 
 ## GitHub Pages
-(agrega aquí tu enlace cuando lo actives)
+
+https://jrdf27.github.io/web_project_homeland/
