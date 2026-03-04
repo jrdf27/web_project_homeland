@@ -1,0 +1,28 @@
+.logo {
+    padding-top: 34px; /* desktop */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centra horizontal */
+    text-align: center;  /* centra texto si lo hubiera */
+  }
+  
+  /* OJO: tu SVG no tiene class="logo__image", así que centramos el svg directo */
+  .logo svg {
+    width: 254.84px;
+    height: 68.94px;
+    display: block;
+  }
+  
+  .logo { padding-top: 20px; display:flex; flex-direction:column; align-items:center; }
+
+  .logo svg { width:188px; height:52px; display:block; }
+  
+  @media (min-width: 768px) {
+    .logo { padding-top: 30px; }
+    .logo svg { width:254px; height:66px; }
+  }
+  
+  @media (min-width: 1280px) {
+    .logo { padding-top: 34px; }
+    .logo svg { width:254.84px; height:68.94px; }
+  }

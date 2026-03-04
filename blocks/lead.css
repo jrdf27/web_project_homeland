@@ -1,0 +1,38 @@
+.lead {
+    text-align: center;
+    padding-top: 50px; /* ajustable */
+  }
+  
+  .lead__title {
+    margin: 0;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1.05;
+  }
+  
+  .lead__subtitle {
+    margin: 16px auto 0;
+    max-width: var(--container);
+    font-size: 16px;
+    line-height: 1.35;
+    opacity: 0.9;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .lead { padding-top: 80px; }
+  
+    .lead__title { font-size: 72px; }
+  
+    .lead__subtitle {
+      font-size: 18px;
+      max-width: 640px;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .lead { padding-top: 90px; }
+  
+    .lead__title { font-size: 96px; }
+  
+    .lead__subtitle { max-width: 720px; }
+  }
