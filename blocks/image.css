@@ -1,9 +1,9 @@
-.image {
-    display: block;
-    width: 100%;
-    margin: 40px auto 0;
+.lead_image {
+    width: 100%; /* Siempre ocupa el ancho disponible */
+    height: auto; /* Mantiene proporción */
+    object-fit: cover;
   }
   
   @media screen and (min-width: 768px) {
-    .image { margin-top: 56px; }
+    .lead_image { margin-top: 56px; }
   }
