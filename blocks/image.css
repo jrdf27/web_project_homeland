@@ -1,9 +1,13 @@
-.lead_image {
-    width: 100%; /* Siempre ocupa el ancho disponible */
-    height: auto; /* Mantiene proporción */
-    object-fit: cover;
+.lead__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__image {
+    margin-top: 56px;
   }
-  
-  @media screen and (min-width: 768px) {
-    .lead_image { margin-top: 56px; }
-  }
+}
